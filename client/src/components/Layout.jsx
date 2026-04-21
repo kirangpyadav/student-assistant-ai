@@ -26,7 +26,7 @@ export default function Layout() {
       <header className="border-b border-white/10 bg-slate-950/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-4">
           <NavLink to="/dashboard" className="text-lg font-semibold tracking-tight text-white">
-            Student Assistant
+            EduAssist
           </NavLink>
           <nav className="flex flex-wrap items-center gap-1">
             {navItems.map((item) => (

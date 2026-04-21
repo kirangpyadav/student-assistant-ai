@@ -47,7 +47,7 @@ export default function Signup() {
           </div>
         )}
         <label className="block text-sm font-medium text-slate-300">
-          Name <span className="text-slate-500">(optional)</span>
+          Name <span className="text-slate-500"></span>
           <input
             type="text"
             autoComplete="name"
