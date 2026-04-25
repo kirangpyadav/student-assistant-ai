@@ -39,13 +39,13 @@ export default function Layout() {
             {user?.email && (
               <span className="hidden text-sm text-slate-500 sm:inline">{user.email}</span>
             )}
-            <button
+            {/* <button
               type="button"
               onClick={toggle}
               className="rounded-lg border border-white/10 bg-white/5 px-3 py-1.5 text-sm text-slate-300 hover:bg-white/10"
             >
               {theme === "dark" ? "Light" : "Dark"}
-            </button>
+            </button> */}
             <button
               type="button"
               onClick={logout}

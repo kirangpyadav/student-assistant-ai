@@ -86,7 +86,7 @@ export default function Videos() {
       <div className="flex flex-wrap items-center gap-2">
         {[
           ["search", "Search"],
-          ["recommended", "Recommended for you"],
+          // ["recommended", "Recommended for you"],
           ["saved", "Saved"],
         ].map(([k, label]) => (
           <button
